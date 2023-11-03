@@ -15,27 +15,80 @@
     ></script>
   </head>
   <body>
-    <header class="header w-11/12 m-auto">
-      <nav class="nav flex justify-between items-center h-24">
+    <div class="nav-container hidden">
+      <nav
+        class="nav flex justify-between items-center h-24 text-yellow-600 shadow-md px-12"
+      >
         <div class="nav-logo">
           <img src="./images/logo.png" class="w-44" />
         </div>
         <ul class="nav-links flex justify-center items-center gap-6">
-          <li><a href="#" class="link uppercase">home</a></li>
-          <li><a href="#">facilities</a></li>
-          <li><a href="#">rooms</a></li>
-          <li><a href="#">restaurant</a></li>
-          <li><a href="#">contact us</a></li>
-          <li><a href="#">pages</a></li>
+          <li class="item flex justify-center items-center">
+            <a href="#" class="link uppercase font-semibold">home</a
+            ><ion-icon name="add-outline"></ion-icon>
+          </li>
+          <li class="item flex justify-center items-center">
+            <a href="#" class="link uppercase font-semibold">facilities</a>
+            <ion-icon name="add-outline"></ion-icon>
+          </li>
+          <li class="item flex justify-center items-center">
+            <a href="#" class="link uppercase font-semibold">rooms</a>
+            <ion-icon name="add-outline"></ion-icon>
+          </li>
+          <li>
+            <a href="#" class="link uppercase font-semibold">restaurant</a>
+          </li>
+          <li>
+            <a href="#" class="link uppercase font-semibold">contact us</a>
+          </li>
+          <li class="item flex justify-center items-center">
+            <a href="#" class="link uppercase font-semibold">pages</a>
+            <ion-icon name="add-outline"></ion-icon>
+          </li>
         </ul>
-        <div class="nav-login">
+        <div class="nav-login flex gap-4">
           <span><ion-icon name="search-outline"></ion-icon></span>
           <div class="nav-button">
             <span><ion-icon name="person-outline"></ion-icon></span>
-            <button>login & register</button>
+            <button class="capitalize font-semibold">login & register</button>
           </div>
         </div>
       </nav>
+    </div>
+    <header
+      class="header bg-[url('./images/slider-1.jpg')] w-screen h-screen bg-no-repeat bg-cover bg-bottom relative"
+    >
+      <div class="header-info flex justify-between items-center p-12">
+        <div class="header-left flex items-center gap-4">
+          <span class="text-white"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></span>
+          <div class="header-email">
+            <p class="text-white">Email address</p>
+            <h5 class="text-gray-300">demo@demo.com</h5>
+          </div>
+        </div>
+        <div class="header-right flex items-center gap-4">
+          <span class="text-white"
+            ><ion-icon name="location-outline"></ion-icon
+          ></span>
+          <div class="header-location">
+            <p class="text-white">Live location</p>
+            <h5 class="text-gray-300">Canada 3800002</h5>
+          </div>
+        </div>
+      </div>
+      <h1
+        class="text-white text-7xl font-samibold h-auto flex justify-center items-start"
+      >
+        A boutuque soolin <br />
+        hotel our canada
+      </h1>
+      <div class="header-btns text-white h-60 flex justify-evenly items-end">
+        <div class="btn">class room</div>
+        <div class="btn">class room</div>
+        <div class="btn">luxury room</div>
+      </div>
     </header>
     <main></main>
     <footer></footer>
