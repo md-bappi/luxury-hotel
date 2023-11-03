@@ -14,7 +14,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <div class="nav-container hidden">
       <nav
         class="nav flex justify-between items-center h-24 text-yellow-600 shadow-md px-12"
@@ -90,7 +90,271 @@
         <div class="btn">luxury room</div>
       </div>
     </header>
-    <main></main>
+    <main class="bg-gray-50">
+      <!-- --------------------------FACILITIES SECTION START ------------------------------->
+      <section class="facilites w-11/12 m-auto pt-24">
+        <div class="ficilites-dec text-center">
+          <p class="text-center text-2xl text-teal-500">
+            Since for best hotel story 1999
+          </p>
+          <h2
+            class="text-center font-semibold text-4xl mt-6 text-gray-800 mb-20"
+          >
+            Situated in prime position <br />
+            at the foot of the slopes..
+          </h2>
+          <button
+            class="facilities-btn bg-teal-500 text-gray-50 font-semibold text-base uppercase px-12 py-4 transition-all hover:bg-transparent hover:text-gray-700 border border-solid border-teal-500"
+          >
+            view story
+          </button>
+        </div>
+        <div class="facilites-card grid grid-cols-5 gap-5">
+          <div
+            class="facilites-item flex flex-col justify-center items-center px-10 py-16 border border-solid border-gray-300 bg-white shadow-md transition-all hover:bg-teal-300"
+          >
+            <img src="./images/facility-service-1.1.png" class="w-16" />
+            <h2 class="my-4 text-xl uppercase font-medium">breakfast</h2>
+            <p>It was popularised in the release of sheets</p>
+          </div>
+          <div
+            class="facilites-item flex flex-col justify-center items-center px-10 py-16 translate-y-1/3 border border-solid border-gray-300 bg-white shadow-md transition-all hover:bg-teal-300"
+          >
+            <img src="./images/facility-service-2.1.png" class="w-16" />
+            <h2 class="my-4 text-xl uppercase font-medium">airport pickup</h2>
+            <p>It was popularised in the release of sheets</p>
+          </div>
+          <div
+            class="facilites-item flex flex-col justify-center items-center px-10 py-16 translate-y-2/3 border border-solid border-gray-300 bg-white shadow-md transition-all hover:bg-teal-300"
+          >
+            <img src="./images/facility-service-3.1.png" class="w-16" />
+            <h2 class="my-4 text-xl uppercase font-medium">city guide</h2>
+            <p>It was popularised in the release of sheets</p>
+          </div>
+          <div
+            class="facilites-item flex flex-col justify-center items-center px-10 py-16 translate-y-1/3 border border-solid border-gray-300 bg-white shadow-md transition-all hover:bg-teal-300"
+          >
+            <img src="./images/facility-service-4.1.png" class="w-16" />
+            <h2 class="my-4 text-xl uppercase font-medium">bbq part</h2>
+            <p>It was popularised in the release of sheets</p>
+          </div>
+          <div
+            class="facilites-item flex flex-col justify-center items-center px-10 py-16 border border-solid border-gray-300 bg-white shadow-md transition-all hover:bg-teal-300"
+          >
+            <img src="./images/facility-service-5.1.png" class="w-16" />
+            <h2 class="my-4 text-xl uppercase font-medium">luxury room</h2>
+            <p>It was popularised in the release of sheets</p>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------ROOMS SECTION START---------------------- -->
+      <section class="rooms-section bg-teal-50">
+        <div class="rooms w-4/5 m-auto mt-96 -translate-y-28">
+          <!-- ----------------ROOMS CATAGORY ----------------------- -->
+          <ul
+            class="rooms-catagory flex justify-center items-center bg-teal-50"
+          >
+            <li class="bg-teal-500 font-medium px-16 py-6 text-white uppercase">
+              hotel luxury
+            </li>
+            <li
+              class="uppercase px-16 py-6 font-medium transition-all hover:bg-teal-500 hover:text-white"
+            >
+              hotel clasic
+            </li>
+            <li
+              class="uppercase px-16 py-6 font-medium transition-all hover:bg-teal-500 hover:text-white"
+            >
+              hotel standard
+            </li>
+            <li
+              class="uppercase px-16 py-6 font-medium transition-all hover:bg-teal-500 hover:text-white"
+            >
+              hotel fivestar
+            </li>
+          </ul>
+          <!-- --------------------------ROOMS DETAILS----------------------- -->
+          <div
+            class="rooms-details bg-white grid grid-cols-4 gap-4 py-12 px-20 rounded-sm"
+          >
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start mb-2"
+            >
+              <p class="text-base uppercase font-medium mb-2">check in</p>
+              <input
+                type="date"
+                placeholder="03 Nov"
+                class="px-6 py-2 bg-gray-200 w-full"
+              />
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start mb-2"
+            >
+              <p class="text-base uppercase font-medium mb-2">gender</p>
+              <select class="px-6 py-2 bg-gray-200 w-full">
+                <option value="select">select now</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+              </select>
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start mb-2"
+            >
+              <p class="text-base uppercase font-medium mb-2">location</p>
+              <select class="px-6 py-2 bg-gray-200 w-full">
+                <option value="">select now</option>
+                <option value="india">india people</option>
+                <option value="america">america people</option>
+                <option value="canada">canada people</option>
+                <option value="mexico">mexico people</option>
+                <option value="chicago">chicago people</option>
+              </select>
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-star mb-2"
+            >
+              <p class="text-base uppercase font-medium mb-2">
+                per night / per day
+              </p>
+              <div
+                class="px-6 py-2 bg-gray-200 w-full grid grid-cols-3 place-items-center"
+              >
+                <span>-</span>
+                <span>1</span>
+                <span>+</span>
+              </div>
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start"
+            >
+              <p class="text-base uppercase font-medium mb-2">check out</p>
+              <input
+                type="date"
+                placeholder="03 Nov"
+                class="px-6 py-2 bg-gray-200 w-full"
+              />
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start"
+            >
+              <p class="text-base uppercase font-medium mb-2">member</p>
+              <input
+                type="number"
+                placeholder="select now"
+                class="px-6 py-2 bg-gray-200 w-full"
+              />
+            </div>
+            <div
+              class="rooms-details-item flex flex-col justify-center items-start"
+            >
+              <p class="text-base uppercase font-medium mb-2">promocode</p>
+              <input
+                type="text"
+                placeholder="enter promocode"
+                class="px-6 py-2 bg-gray-200 w-full"
+              />
+            </div>
+            <button
+              class="rooms-btn place-self-end bg-teal-500 text-gray-50 font-semibold text-base uppercase py-2 w-full transition-all hover:bg-transparent hover:text-gray-700 border border-solid border-teal-500"
+            >
+              book now
+            </button>
+          </div>
+        </div>
+        <!-- -------------------ROOMS POPULAR START--------------------- -->
+        <div class="rooms-popular">
+          <p class="text-center text-2xl text-teal-500">
+            We have the largest hotel
+          </p>
+          <h2
+            class="text-center font-semibold text-4xl mt-6 text-gray-800 mb-20 uppercase"
+          >
+            most popular hotel
+          </h2>
+          <div class="rooms-popular-image"></div>
+        </div>
+      </section>
+      <!-- --------------------------SERVICE SECTION START------------------- -->
+      <section class="service-section w-4/5 m-auto">
+        <!-- --------------------------SERVICE TITLE SECTION------------------- -->
+        <div class="service-title">
+          <p class="text-center text-2xl text-teal-500">
+            Best facility for our service
+          </p>
+          <h2
+            class="text-center font-semibold text-4xl mt-6 text-gray-800 mb-20"
+          >
+            best service for hotel
+          </h2>
+        </div>
+        <!-- --------------------------SERVICE DESCRIPTION SECTION------------------- -->
+        <div class="service-description grid grid-cols-3 gap-4">
+          <div
+            class="service-item bg-white grid grid-cols-2 place-items-center gap-3 py-4 px-2"
+          >
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2 class="text-xl font-semibold">free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2>free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2>free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2>free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2>free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <img
+              src="./images/facility-service-4.1.png"
+              class="inline-block w-12"
+            />
+            <div class="service-item-description">
+              <h2>free wi-fi available</h2>
+              <p>It is long established fact that a reader will be the</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
